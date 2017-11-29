@@ -14,7 +14,7 @@ function [eig_s,eig_v,t]=deflation_pwm(A,tol,maxit,flag)
 % t - parameter the indicate the error in eig_v
 k=length(A);
 mc=cell(k,3);
-% mc is a data structure 
+% mc is a data structure, which 
 mc{1,1}=A;
 eig_s=zeros(k,1);
 eig_v=zeros(k,k);
